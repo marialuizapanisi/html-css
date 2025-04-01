@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgb(88, 84, 84);
+            margin: 0px;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(20, 54, 20);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
+            border-radius: 5px;
+
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+            
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+        }
+        
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+
+        article > aside {
+            margin: 5px;
+            text-align: justify;
+            background-color: rgb(146, 127, 127);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quo dolores ut nam neque velit? Libero dolores ratione tempora laboriosam eum minima, reiciendis totam voluptas corporis, labore tempore laudantium est.</p>
+                <aside>
+                    <p>Artigo escrito por Gustavo Guanabara</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+</body>
+</html>
