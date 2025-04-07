@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+
+        caption {
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: rgba(128, 128, 128, 0.562);
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Populaçao dos Estados do Brasil</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>450.000,00</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000,00</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
